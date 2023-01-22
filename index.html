@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="recursos/logoAlura.ico" type="image/x-icon">
+    <title>Encriptador</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="encriptadorLogo"><img class="encriptadorImg" src="recursos/logo.png" alt=""></h1>
+        <div class="section1">
+            <div class="inputText">
+                <form class="inputForm" action="">
+                    <textarea class="inputTextoTarea" id="texto" type="text"
+                        placeholder="Ingrese el texto aqui"></textarea>
+                    <div class="advertencia">
+                        <span class="textAdvertencia">
+                            <img src="recursos/iconoAdvertencia.svg" alt="iconoDeAdvertencia" id="iconoDeAdvertencia">
+                            Solo letras minúsculas y sin acentos
+                        </span>
+                        <div class="btnAbajo">
+                            <input type="button" value="Encriptar" id="btnEncriptar" class="btns">
+                            <input type="button" value="Desincreptar" id="btnDesencriptar" class="btns">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="section2">
+            <div class="cajaEncriptado">
+                <p class="textoEncriptado">
+
+                </p>
+            </div>
+            <img class="outputImg ocultar" src="recursos/Muñeco.png" alt="">
+            <h2 class="outputTittle ocultar">Ningún mensaje fue encontrado</h2>
+            <p class="outputParrafo ocultar">Ingresa el texto que desees encriptar o desencriptar.</p>
+            <input type="button" value="Copiar" id="btnCopiar">
+        </div>
+    </div>
+
+    <footer>
+        <p> Hecho con cariño 💖 por Sebastian Duran C </p>
+            <a href="https://github.com/sebastianDuranC" target="_blank" class="footerLink">
+                <img class="footerLogo" src="recursos/logoGithub.png" alt="Logo de Github">
+            </a>
+            <a href="https://www.linkedin.com/in/sebastiandurancaballero/" target="_blank" class="footerLink">
+                <img src="recursos/logoLinkedin.png" alt="Logo de linkedin" class="footerLogo">
+            </a>
+    </footer>   
+</body>
+<script src="app.js"></script>
+</html>
